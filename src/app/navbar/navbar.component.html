@@ -8,10 +8,10 @@
                       <ul class="nav nav-tabs card-header-tabs">
                         
                         <li class="nav-item">
-                          <a class="nav-link" href="#">route 1</a>
+                          <a class="nav-link active" href="#">route 1</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link disabled" href="#">route 2</a>
+                          <a class="nav-link " href="#">route 2</a>
                         </li>
                       </ul>
                     </div>
@@ -22,9 +22,38 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <div class="card text-center" style="width: 1305px; height: 650px; margin-top: 10px;">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <table class="table">
+                            <thead class="table-secondary">
+                              <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Semester</th>
+                                <th scope="col">Boarding point</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Akhil</th>
+                                <td>BCA</td>
+                                <td>4</td>
+                                <td>Neyyattinkara</td>
+                                <td>Amount</td>
+                                <td>
+                                    <table align="center">
+                                        <tr>
+                                            <td><input type="radio" class="btn-check" name="options" id="option1"  checked >
+                                                <label class="btn btn-secondary" for="option1" style="width: 100px;">Not paid</label></td>
+                                            <td><input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                                                <label class="btn btn-secondary" for="option2" style="width: 100px;">Paid</label></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                              </tr>
+                             
+                            </tbody>
+                          </table>
                       
                     </div>
                   </div>
